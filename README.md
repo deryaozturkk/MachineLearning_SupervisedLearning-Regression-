@@ -204,7 +204,7 @@ Bir şirketin finansal performansını belirli bir muadili ile karşılaştırma
 
 Birçok işletme ve üst düzey yönetici, daha iyi iş kararları vermek, varsayımları ve içgüdüleri azaltmak için regresyon analizini kullanır. Yöneticiler, verileri filtrelemek ve mümkün olan en iyi kararları vermek için regresyon analizinden yararlanır.
 
-### Regresyon Analizi Örnekleri
+### Regresyon Analizi Hangi Sektörlerde Var?  
 Regresyon analizinin nerelerde kullanılabileceğini öğrenmek istiyorsanız, aşağıdaki örnekleri inceleyebilirsiniz.
 
 **Finans Sektörü:**
@@ -225,6 +225,60 @@ Bir firmanın yöneticisi, gelecek planlaması için reklam harcamaları ile sat
 **İlaç:**
 
  Hastalıklar için jenerik ilaçlar hazırlamak için farklı ilaç kombinasyonlarını tahmin etmek.
+
+### Denetimli Öğrenme Algoritmaları İle Basit Doğrusal Regresyon Örnekleri
+
+1. İşletmeler, reklam harcamaları ile gelir arasındaki ilişkiyi anlamak için genellikle doğrusal regresyon kullanır.
+  <p><img width="200" height="50" src="https://user-images.githubusercontent.com/72493701/197595507-4485719b-f0d0-4a69-b946-0aa74927cff5.png">
+</p>
++ Β0 katsayısı, reklam harcaması sıfır olduğunda beklenen toplam geliri temsil eder.
++ Β1 katsayısı, reklam harcamaları bir birim (ör. Bir dolar) artırıldığında toplam gelirdeki ortalama değişimi temsil eder.
++ Β1 negatifse, bu, daha fazla reklam harcamasının daha az gelirle ilişkili olduğu anlamına gelir.
++ Β1 sıfıra yakınsa, bu, reklam harcamalarının gelir üzerinde çok az etkisi olduğu anlamına gelir.
++ Β1 pozitifse, daha fazla reklam harcamasının daha fazla gelirle ilişkili olduğu anlamına gelir.
++ Β1 değerine bağlı olarak, bir şirket reklam harcamalarını azaltmaya veya artırmaya karar verebilir.
+
+2. Tıbbi araştırmacılar, ilaç dozu ile hastaların kan basıncı arasındaki ilişkiyi anlamak için sıklıkla doğrusal regresyon kullanırlar.
+
+Örneğin, araştırmacılar hastalara belirli bir ilacın çeşitli dozajlarını uygulayabilir ve kan basıncının nasıl tepki verdiğini gözlemleyebilir. Yordayıcı değişken olarak dozajı ve yanıt değişkeni olarak kan basıncını kullanan basit bir doğrusal regresyon modeline uyabilirler. Regresyon modeli aşağıdaki formu alacaktır:
+<p>
+  <img width="200" height="50" src="https://user-images.githubusercontent.com/72493701/197597269-71c8ea85-85ce-4ef0-bc20-45d8ae78fece.png">
+</p>
+
++ Β0 katsayısı, dozaj sıfır olduğunda beklenen kan basıncını temsil eder.
++ Β1 katsayısı, dozaj bir birim artırıldığında kan basıncındaki ortalama değişimi temsil eder.
++ Β1 negatif ise, dozajdaki bir artışın kan basıncındaki bir düşüşle ilişkili olduğu anlamına gelir.
++ Β1 sıfıra yakınsa, bu, dozajdaki bir artışın kan basıncında herhangi bir değişiklik olmaması ile ilişkili olduğu anlamına gelir.
++ Β1 pozitif ise, dozajdaki bir artışın kan basıncındaki bir artışla ilişkili olduğu anlamına gelir.
++ Β1 değerine bağlı olarak, araştırmacılar bir hastaya verilen dozu değiştirmeye karar verebilir.
+
+3. Tarım bilimcileri, gübre ve suyun mahsul verimi üzerindeki etkisini ölçmek için genellikle doğrusal regresyon kullanırlar.
+
+Örneğin, bilim adamları farklı alanlarda farklı miktarlarda gübre ve su kullanabilir ve bunun mahsul verimini nasıl etkilediğini görebilirler. Yordayıcı değişkenler olarak gübre ve su ve yanıt değişkeni olarak mahsul verimi kullanan çoklu doğrusal regresyon modeline uyabilirler. Regresyon modeli aşağıdaki formu alacaktır:
+<p>
+  <img width="400" height="50" src="https://user-images.githubusercontent.com/72493701/197597888-edbc2b23-13c1-436b-936d-d021a5a1f1b1.png">
+</p>
+
++ Β0 katsayısı, gübre veya su olmadan beklenen mahsul verimini temsil eder.
++ Β1 katsayısı, su miktarının değişmeden kaldığı varsayılarak, gübre bir birim artırıldığında mahsul verimindeki ortalama değişimi temsil edecektir.
++ Β2 katsayısı, gübre miktarının değişmeden kaldığı varsayılarak, su bir birim artırıldığında mahsul verimindeki ortalama değişimi temsil edecektir.
++ Β1 ve β2 değerlerine bağlı olarak, bilim adamları mahsul verimini en üst düzeye çıkarmak için kullanılan gübre ve su miktarını değiştirebilirler.
+
+4. Gayrimenkul örneği
+
+Ev satmak için en iyi zamanı tahmin etmeye yardımcı olacak bir model oluşturmak isteyen bir emlak uzmanısınız. Evleri maksimum satış fiyatından satmak istersiniz, ancak satış fiyatını birden fazla faktör etkileyebilir. Bu değişkenler, diğer faktörlerin yanı sıra evin yaşını, mahalledeki diğer evlerin değerini, devlet okulu sisteminin öğrenci performansına ilişkin nicel ölçümlerini ve yakındaki parkların sayısını içerir.Evlerin maksimum satış fiyatını tahmin etmek için bu dört bağımsız değişkenden bir tahmin modeli oluşturabilirsiniz. Bu faktörlerden herhangi biri katsayı değerleri açısından değişirse değişkenleri ayarlayabilirsiniz.
+
+5. İş örneği
+
+Halka açık bir şirkette hisse senediniz var ve şimdi hisse senedinizi satmak için iyi bir zaman olup olmayacağını bilmek istiyorsunuz. Şirketin karlılığı, şirketin maliyetleri, şirketin rekabeti ve şirketin varlıkları dahil olmak üzere hisse senedi fiyatının değerini çeşitli değişkenler etkileyebilir. Hisse senedini hemen satmanız mı yoksa hisse senedini elinde tutmaya devam etmeniz mi gerektiğine karar vermenize yardımcı olmak için bu dört bağımsız değişkenden bir tahmin modeli oluşturabilirsiniz
+ 6. Halk sağlığı örneği
+ Bulaşıcı bir hastalığın yayılmasını inceleyen bir epidemiyologsunuz. Mevcut bilinen enfeksiyonlara dayanarak bu hastalığın gelecekteki yayılmasını tahmin etmek istiyorsunuz. Çok sayıda bağımsız değişken, popülasyon büyüklüğü, popülasyon yoğunluğu, hava sıcaklığı, asemptomatik taşıyıcılar ve popülasyonun sürü bağışıklığına ulaşıp ulaşmadığı dahil olmak üzere gelecekteki enfeksiyonların sayısını etkileyebilir. Yordayıcı değişkenlerin katsayı değerlerindeki olası değişiklikleri hesaba katan bir sonucu tahmin etmek için ampirik veriler üzerinde istatistiksel modelleme ve çoklu doğrusal regresyon analizi yapabilirsiniz.
+
+ 
+ 
+
+ 
+
 
 
 
