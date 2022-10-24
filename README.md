@@ -183,8 +183,48 @@ Grafiği temel bir doğrusal regresyonda inceleyerek kesişim, katsayı ve korel
   <img width="500" height="300" src="https://user-images.githubusercontent.com/72493701/197591700-c842cf6e-5bb3-4b89-b2db-9ce4620edbb8.png">
 </p>
 
+### Regresyon Analizi Kullanım Alanları
 
+1. Tahmin
 
+İşletmelerde regresyon analizinin en yaygın kullanımı, **gelecekteki fırsatları ve tehditleri tahmin etmektir**. Örneğin talep analizi, bir müşterinin satın alma olasılığı yüksek olan şeylerin miktarını tahmin eder.
+Ancak iş söz konusu olduğunda, talep tek bağımlı değişken değildir. **Regresif analiz**, doğrudan gelirden çok daha fazlasını öngörebilir.
+Örneğin, belirli bir reklam panosunun önünden geçecek tüketicilerin sayısını tahmin ederek bir reklam için en yüksek teklifi tahmin edebilir.
+
+2. CAPM
+
+Bir varlığın öngörülen getirisi ile ilgili piyasa risk primi arasındaki bağlantıyı kuran **The Capital Asset Pricing Model (CAPM), doğrusal regresyon modeline dayanır.** Ayrıca, kurumsal getirileri ve operasyonel performansı tahmin etmek için finansal analistler tarafından finansal analizde sıklıkla kullanılır.
+Bir hisse senedinin beta katsayısı, regresyon analizi kullanılarak hesaplanır. Beta, toplam piyasa riskiyle ilgili getiri oynaklığının bir ölçüsüdür.
+
+3. Rekabet karşılaştırma 
+
+Bir şirketin finansal performansını belirli bir muadili ile karşılaştırmak için kullanılabilir. Ayrıca iki firmanın hisse senedi fiyatları arasındaki ilişkiyi belirlemek için de kullanılabilir ve hangi yönlerin satışlarını etkilediğini belirlemede firmaya yardımcı olabilir. Bu teknikler, küçük işletmelerin kısa sürede hızlı başarıya ulaşmalarına yardımcı olabilir.
+
+4. Güvenilir kaynak
+
+Birçok işletme ve üst düzey yönetici, daha iyi iş kararları vermek, varsayımları ve içgüdüleri azaltmak için regresyon analizini kullanır. Yöneticiler, verileri filtrelemek ve mümkün olan en iyi kararları vermek için regresyon analizinden yararlanır.
+
+### Regresyon Analizi Örnekleri
+Regresyon analizinin nerelerde kullanılabileceğini öğrenmek istiyorsanız, aşağıdaki örnekleri inceleyebilirsiniz.
+
+**Finans Sektörü:**
+
+Finansta, bir hisse senedinin BETA’sını hesaplamak için regresyon analizi kullanılır. Üstelik bunu Excel yardımı ile kolayca yapabilirsiniz.
+Yine finansta, şirketler için mali tabloları tahmin etmek için regresyon analizi de kullanılır. Böylece, iş varsayımlarındaki hangi değişikliklerin gelecekteki giderleri ve geliri etkileyeceğini belirleyebilirsiniz.
+Bir şirketin satışları son birkaç yıldır her ay istikrarlı bir şekilde arttıysa, satış verileri üzerinde aylık satışlarla doğrusal bir analiz yaparak şirketin gelecek aylardaki satışlarını tahmin edebilirsiniz.
+Bir firmanın yöneticisi, gelecek planlaması için reklam harcamaları ile satışlar arasındaki kesin ilişkiyi öğrenmek istiyorsa, regresyon tekniği ile bu ilişkiyi tahmin edebilir.
+
+**Pazarlama:**
+
+ Pazar kampanyalarının etkinliğini, tahmin fiyatlandırmasını ve ürünün satışını anlamak.
+ 
+**Üretim:**
+
+ Daha iyi performans sağlamak için değişkenlerin ilişkisini değerlendirmek.
+ 
+**İlaç:**
+
+ Hastalıklar için jenerik ilaçlar hazırlamak için farklı ilaç kombinasyonlarını tahmin etmek.
 
 
 
