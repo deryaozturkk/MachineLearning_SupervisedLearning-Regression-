@@ -5,7 +5,7 @@ Makine Öğrenmesi Dersi Denetimli Öğrenme (Regresyon) Raporu
 </p>
 
 
-# Dentimli Öğrenme
+# Denetimli Öğrenme
 ## Denetimli Öğrenme Nedir?
 Denetimli öğrenme; aldığı veriler ve ürettiği sonuçlara dayalı olarak bir model geliştirme işlemidir. Diğer makine öğrenmesi türlerine kıyasla denetimli öğrenmenin en büyük farkı veri etiketi kullanılmasıdır. Etiketlediğimiz veriye, gösterdiğimiz sınıf ve bilgiye göre mevcut gerçekliğe dayanarak model geliştirme algoritmasıdır.
 Örnekler üzerinde bir öğrenme sağlar ve yeni girdilerde de etiketi tahmin etmeye çalışır.
