@@ -226,7 +226,7 @@ Bir firmanın yöneticisi, gelecek planlaması için reklam harcamaları ile sat
 
  Hastalıklar için jenerik ilaçlar hazırlamak için farklı ilaç kombinasyonlarını tahmin etmek.
 
-### Denetimli Öğrenme Algoritmaları İle Basit Doğrusal Regresyon Örnekleri
+### Denetimli Öğrenme Algoritmaları İle Basit Doğrusal ve Çoklu Regresyon Örnekleri
 
 1. İşletmeler, reklam harcamaları ile gelir arasındaki ilişkiyi anlamak için genellikle doğrusal regresyon kullanır.
   <p><img width="200" height="50" src="https://user-images.githubusercontent.com/72493701/197595507-4485719b-f0d0-4a69-b946-0aa74927cff5.png">
