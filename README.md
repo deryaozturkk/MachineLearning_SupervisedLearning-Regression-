@@ -4,6 +4,19 @@ Makine Öğrenmesi Dersi Denetimli Öğrenme (Regresyon) Raporu
   <img width="700" height="350" src="https://user-images.githubusercontent.com/72493701/197514949-f969922b-0a4b-46f7-8916-22cebeb22c77.png">
 </p>
 
+###  İçindekiler:
+
++ Denetimli Öğrenme Nedir?
++ Tarihçesi
++ Denetimli öğrenme örnekleri
++ Regresyon Nedir Ve Çeşitleri Nelerdir?
++ Basit Doğrusal Regresyon Ve Çoklu Regresyon
++ Regresyon Analizi Nasıl Yapılır? Çalışma Mantığı Nedir?
++ Regresyon Analizi Kullanım Alanları
++ Regresyon Analizi Hangi Sektörlerde Var?
++ Denetimli Öğrenme Algoritmaları İle Basit Doğrusal ve Çoklu Regresyon Örnekleri
++ Kaynakça
+
 
 # Denetimli Öğrenme
 ## Denetimli Öğrenme Nedir?
@@ -274,10 +287,17 @@ Halka açık bir şirkette hisse senediniz var ve şimdi hisse senedinizi satmak
  6. Halk sağlığı örneği
  Bulaşıcı bir hastalığın yayılmasını inceleyen bir epidemiyologsunuz. Mevcut bilinen enfeksiyonlara dayanarak bu hastalığın gelecekteki yayılmasını tahmin etmek istiyorsunuz. Çok sayıda bağımsız değişken, popülasyon büyüklüğü, popülasyon yoğunluğu, hava sıcaklığı, asemptomatik taşıyıcılar ve popülasyonun sürü bağışıklığına ulaşıp ulaşmadığı dahil olmak üzere gelecekteki enfeksiyonların sayısını etkileyebilir. Yordayıcı değişkenlerin katsayı değerlerindeki olası değişiklikleri hesaba katan bir sonucu tahmin etmek için ampirik veriler üzerinde istatistiksel modelleme ve çoklu doğrusal regresyon analizi yapabilirsiniz.
 
- 
- 
 
- 
+ #### KAYNAKÇA
+
++ https://en.wikipedia.org/wiki/Simple_linear_regression
++ https://dergipark.org.tr/en/download/article-file/187511
++ https://aws.amazon.com/tr/what-is/logistic-regression/
++ https://www.ibm.com/tr-tr/analytics/learn/linear-regression
++ https://www.scribbr.com/statistics/simple-linear-regression/#:~:text=What%20is%20simple%20linear%20regressio%20n,Both%20variables%20should%20be%20quantitative.
++ https://www.youtube.com/watch?v=4qVRBYAdLAo
++ https://www.cancankiran.com/makine-ogrenimi/
++ https://www.statology.org/linear-regression-real-life-examples/
 
 
 
